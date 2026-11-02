@@ -1,0 +1,56 @@
+{
+  "gitlinks": {},
+  "vendored": [],
+  "models": [],
+  "external_libraries": [
+    {
+      "name": "Conditional source requirements declared by pyproject.toml",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "pyproject.toml"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by requirements.txt",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "requirements.txt"
+      ]
+    },
+    {
+      "name": "Conditional source requirements declared by setup.py",
+      "version": "unresolved; see immutable declaration evidence",
+      "evidence": [
+        "setup.py"
+      ]
+    },
+    {
+      "name": "Pillow==12.3.0",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "pyproject.toml"
+      ]
+    },
+    {
+      "name": "setuptools build backend",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "pyproject.toml"
+      ]
+    },
+    {
+      "name": "dev mock==1.0.1 and nose==1.3.0",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "pyproject.toml"
+      ]
+    },
+    {
+      "name": "uv.lock",
+      "version": "unresolved; conditional source declaration",
+      "evidence": [
+        "pyproject.toml"
+      ]
+    }
+  ]
+}

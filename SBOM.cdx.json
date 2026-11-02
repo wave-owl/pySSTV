@@ -1,0 +1,1004 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "bom-ref": "26ca2b7dc025d550",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "912f200808f1d61a0604da0d4eadcb047e330f60"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f95206e1eeafb8f3d8edabc5da05f8fdfb5d974f280e311620ff4aa09ce6625d"
+        }
+      ],
+      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/pySSTV/.source-input/requirements.txt",
+      "type": "file"
+    },
+    {
+      "bom-ref": "3717ae13dd3eb744",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "76a302b0f8fee6de4d33be0223362710b09e37e1"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e683c9282128c378a3b9022de3a020a19c9016571f114fe929f242be443be9af"
+        }
+      ],
+      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/pySSTV/.source-input/uv.lock",
+      "type": "file"
+    },
+    {
+      "bom-ref": "4fdb9af3fa8c13d9",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "275a47fb17eaeae23760b14720f38517352463ad"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5faa2911f20eb96ebb3e9f40ce6c260953d70f4d207b27ce927da70fef2f254a"
+        }
+      ],
+      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/pySSTV/.source-input/.github/workflows/python-package.yml",
+      "type": "file"
+    },
+    {
+      "bom-ref": "external-library:0",
+      "name": "Conditional source requirements declared by pyproject.toml",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pyproject.toml\", \"sha256\": \"435c31bc8f8258fa04a5ace8cd98367435bb696b86caf22b615f7e86b229086f\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:1",
+      "name": "Conditional source requirements declared by requirements.txt",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"requirements.txt\", \"sha256\": \"f95206e1eeafb8f3d8edabc5da05f8fdfb5d974f280e311620ff4aa09ce6625d\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:2",
+      "name": "Conditional source requirements declared by setup.py",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; see immutable declaration evidence"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"setup.py\", \"sha256\": \"9c3ff736276e169c32aa6b382da346e231034e5c35cf613636a97efb8e9e5816\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:3",
+      "name": "Pillow==12.3.0",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pyproject.toml\", \"sha256\": \"435c31bc8f8258fa04a5ace8cd98367435bb696b86caf22b615f7e86b229086f\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:4",
+      "name": "setuptools build backend",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pyproject.toml\", \"sha256\": \"435c31bc8f8258fa04a5ace8cd98367435bb696b86caf22b615f7e86b229086f\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:5",
+      "name": "dev mock==1.0.1 and nose==1.3.0",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pyproject.toml\", \"sha256\": \"435c31bc8f8258fa04a5ace8cd98367435bb696b86caf22b615f7e86b229086f\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "external-library:6",
+      "name": "uv.lock",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "conditional-build-runtime-requirement"
+        },
+        {
+          "name": "sbom:resolution",
+          "value": "conditional; unresolved version"
+        },
+        {
+          "name": "sbom:declared-version",
+          "value": "unresolved; conditional source declaration"
+        },
+        {
+          "name": "sbom:evidence",
+          "value": "[{\"path\": \"pyproject.toml\", \"sha256\": \"435c31bc8f8258fa04a5ace8cd98367435bb696b86caf22b615f7e86b229086f\"}]"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "bom-ref": "pkg:github/actions/checkout@v3?package-id=ab3c03559ddec4db",
+      "cpe": "cpe:2.3:a:actions\\/checkout:actions\\/checkout:v3:*:*:*:*:*:*:*",
+      "name": "actions/checkout",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/python-package.yml"
+        }
+      ],
+      "purl": "pkg:github/actions/checkout@v3",
+      "type": "library",
+      "version": "v3"
+    },
+    {
+      "bom-ref": "pkg:github/actions/setup-python@v3?package-id=fc9cb615a8d574bf",
+      "cpe": "cpe:2.3:a:actions\\/setup-python:actions\\/setup-python:v3:*:*:*:*:*:*:*",
+      "name": "actions/setup-python",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "github-actions-usage-cataloger"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "github-action"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "github-actions-use-statement"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup-python:actions\\/setup_python:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup-python:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup_python:actions\\/setup_python:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup-python:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:actions\\/setup:actions\\/setup_python:v3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/.github/workflows/python-package.yml"
+        }
+      ],
+      "purl": "pkg:github/actions/setup-python@v3",
+      "type": "library",
+      "version": "v3"
+    },
+    {
+      "bom-ref": "pkg:pypi/mock@1.0.1?package-id=b6cd7ec558332e44",
+      "cpe": "cpe:2.3:a:python-mock:python-mock:1.0.1:*:*:*:*:*:*:*",
+      "name": "mock",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-uv-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-mock:python_mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_mock:python-mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_mock:python_mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mock:python-mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mock:python_mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-mock:mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_mock:mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mock:mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/mock@1.0.1",
+      "type": "library",
+      "version": "1.0.1"
+    },
+    {
+      "bom-ref": "pkg:pypi/mock@1.0.1?package-id=e5c83449e016ddca",
+      "cpe": "cpe:2.3:a:python-mock:python-mock:1.0.1:*:*:*:*:*:*:*",
+      "name": "mock",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-mock:python_mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_mock:python-mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_mock:python_mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mock:python-mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mock:python_mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-mock:mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_mock:mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mock:mock:1.0.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements.txt"
+        }
+      ],
+      "purl": "pkg:pypi/mock@1.0.1",
+      "type": "library",
+      "version": "1.0.1"
+    },
+    {
+      "bom-ref": "pkg:pypi/nose@1.3.0?package-id=c1a41bd58d5682f1",
+      "cpe": "cpe:2.3:a:python-nose:python-nose:1.3.0:*:*:*:*:*:*:*",
+      "name": "nose",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-uv-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-nose:python_nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_nose:python-nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_nose:python_nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nose:python-nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nose:python_nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-nose:nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_nose:nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nose:nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/nose@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/nose@1.3.0?package-id=de6f3ae8c34deec3",
+      "cpe": "cpe:2.3:a:python-nose:python-nose:1.3.0:*:*:*:*:*:*:*",
+      "name": "nose",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-nose:python_nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_nose:python-nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_nose:python_nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nose:python-nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nose:python_nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-nose:nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_nose:nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:nose:nose:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements.txt"
+        }
+      ],
+      "purl": "pkg:pypi/nose@1.3.0",
+      "type": "library",
+      "version": "1.3.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/pillow@12.3.0?package-id=7b22e673e90253dd",
+      "cpe": "cpe:2.3:a:python-pillow:python-pillow:12.3.0:*:*:*:*:*:*:*",
+      "name": "pillow",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-uv-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pillow:python_pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pillow:python-pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pillow:python_pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pillow:python-pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pillow:python_pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pillow:pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pillow:pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pillow:pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/pillow@12.3.0",
+      "type": "library",
+      "version": "12.3.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/pillow@12.3.0?package-id=82487ea9cb398061",
+      "cpe": "cpe:2.3:a:python-pillow:python-pillow:12.3.0:*:*:*:*:*:*:*",
+      "name": "pillow",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-pip-requirements-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pillow:python_pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pillow:python-pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pillow:python_pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pillow:python-pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pillow:python_pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pillow:pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pillow:pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pillow:pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pillow:12.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/requirements.txt"
+        }
+      ],
+      "purl": "pkg:pypi/pillow@12.3.0",
+      "type": "library",
+      "version": "12.3.0"
+    },
+    {
+      "bom-ref": "pkg:pypi/pysstv@0.5.9?package-id=1d3009ec0a0c134c",
+      "cpe": "cpe:2.3:a:python-pysstv:python-pysstv:0.5.9:*:*:*:*:*:*:*",
+      "name": "pysstv",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "python-package-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "python"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "python-uv-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pysstv:python_pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pysstv:python-pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pysstv:python_pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pysstv:python-pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pysstv:python_pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python-pysstv:pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python-pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:python_pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python_pysstv:pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:pysstv:pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:python:pysstv:0.5.9:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/uv.lock"
+        }
+      ],
+      "purl": "pkg:pypi/pysstv@0.5.9",
+      "type": "library",
+      "version": "0.5.9"
+    }
+  ],
+  "compositions": [
+    {
+      "aggregate": "unknown",
+      "assemblies": [
+        "git:https://github.com/wave-owl/pySSTV@d998fad154d3e6ad2d73af5add49beec0d2ab59f"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [],
+      "ref": "26ca2b7dc025d550"
+    },
+    {
+      "dependsOn": [],
+      "ref": "3717ae13dd3eb744"
+    },
+    {
+      "dependsOn": [],
+      "ref": "4fdb9af3fa8c13d9"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:0"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:2"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:3"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:4"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:5"
+    },
+    {
+      "dependsOn": [],
+      "ref": "external-library:6"
+    },
+    {
+      "dependsOn": [
+        "26ca2b7dc025d550",
+        "3717ae13dd3eb744",
+        "4fdb9af3fa8c13d9",
+        "external-library:0",
+        "external-library:1",
+        "external-library:2",
+        "external-library:3",
+        "external-library:4",
+        "external-library:5",
+        "external-library:6",
+        "pkg:github/actions/checkout@v3?package-id=ab3c03559ddec4db",
+        "pkg:github/actions/setup-python@v3?package-id=fc9cb615a8d574bf",
+        "pkg:pypi/mock@1.0.1?package-id=b6cd7ec558332e44",
+        "pkg:pypi/mock@1.0.1?package-id=e5c83449e016ddca",
+        "pkg:pypi/nose@1.3.0?package-id=c1a41bd58d5682f1",
+        "pkg:pypi/nose@1.3.0?package-id=de6f3ae8c34deec3",
+        "pkg:pypi/pillow@12.3.0?package-id=7b22e673e90253dd",
+        "pkg:pypi/pillow@12.3.0?package-id=82487ea9cb398061",
+        "pkg:pypi/pysstv@0.5.9?package-id=1d3009ec0a0c134c"
+      ],
+      "ref": "git:https://github.com/wave-owl/pySSTV@d998fad154d3e6ad2d73af5add49beec0d2ab59f"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:github/actions/checkout@v3?package-id=ab3c03559ddec4db"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:github/actions/setup-python@v3?package-id=fc9cb615a8d574bf"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/mock@1.0.1?package-id=b6cd7ec558332e44"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/mock@1.0.1?package-id=e5c83449e016ddca"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/nose@1.3.0?package-id=c1a41bd58d5682f1"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/nose@1.3.0?package-id=de6f3ae8c34deec3"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/pillow@12.3.0?package-id=7b22e673e90253dd"
+    },
+    {
+      "dependsOn": [],
+      "ref": "pkg:pypi/pillow@12.3.0?package-id=82487ea9cb398061"
+    },
+    {
+      "dependsOn": [
+        "pkg:pypi/pillow@12.3.0?package-id=7b22e673e90253dd"
+      ],
+      "ref": "pkg:pypi/pysstv@0.5.9?package-id=1d3009ec0a0c134c"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "bom-ref": "git:https://github.com/wave-owl/pySSTV@d998fad154d3e6ad2d73af5add49beec0d2ab59f",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/wave-owl/pySSTV/tree/d998fad154d3e6ad2d73af5add49beec0d2ab59f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "License evidence; see declared files"
+          }
+        }
+      ],
+      "name": "wave-owl/pySSTV",
+      "properties": [
+        {
+          "name": "sbom:role",
+          "value": "source-root"
+        },
+        {
+          "name": "sbom:git-commit",
+          "value": "d998fad154d3e6ad2d73af5add49beec0d2ab59f"
+        },
+        {
+          "name": "sbom:git-tree",
+          "value": "94533e80e07a68973bc6201786e3c7c6b79fcd2a"
+        },
+        {
+          "name": "sbom:source-repository",
+          "value": "https://github.com/wave-owl/pySSTV"
+        },
+        {
+          "name": "sbom:release-tags",
+          "value": "[]"
+        },
+        {
+          "name": "sbom:license-evidence",
+          "value": "[{\"path\": \"LICENSE.txt\", \"sha256\": \"dd04ede42aec9ae526e6eacb8dd8319366878fd4ff2ab780049cc379f7ed7107\"}]"
+        },
+        {
+          "name": "sbom:license-resolution",
+          "value": "unresolved; manual review required"
+        },
+        {
+          "name": "sbom:snapshot",
+          "value": "true"
+        },
+        {
+          "name": "sbom:snapshot-source-commit",
+          "value": "d998fad154d3e6ad2d73af5add49beec0d2ab59f"
+        },
+        {
+          "name": "sbom:snapshot-scope",
+          "value": "Initial immutable source snapshot, before the tooling commit; not a release report."
+        }
+      ],
+      "type": "application",
+      "version": "d998fad154d3e6ad2d73af5add49beec0d2ab59f"
+    },
+    "properties": [
+      {
+        "name": "sbom:scope",
+        "value": "Source repository inventory only; completeness is UNKNOWN. Syft inventories tracked source/package manifests. Gitlinks and declared vendored/model evidence are inspected at immutable pins. CMake declarations are conditional requirements, not resolved installations. This is NOT proof of operating-system packages, static-link closure, build-time resolution, or the contents of release binaries."
+      },
+      {
+        "name": "sbom:generation-status",
+        "value": "success"
+      },
+      {
+        "name": "sbom:generation-errors",
+        "value": "[]"
+      }
+    ],
+    "timestamp": "2026-11-02T16:50:49.290123+00:00",
+    "tools": {
+      "components": [
+        {
+          "author": "anchore",
+          "name": "syft",
+          "type": "application",
+          "version": "1.55.0"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:b5063ae5-9050-4ab6-8ad9-091703a1a173",
+  "specVersion": "1.6",
+  "version": 1
+}
