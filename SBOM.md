@@ -43,9 +43,9 @@ None.
 | pillow | 12.3.0 | Syft source/package discovery | unresolved |
 | pillow | 12.3.0 | Syft source/package discovery | unresolved |
 | pysstv | 0.5.9 | Syft source/package discovery | unresolved |
-| /Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/pySSTV/.source-input/.github/workflows/python-package.yml | unresolved | Syft source/package discovery | unresolved |
-| /Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/pySSTV/.source-input/requirements.txt | unresolved | Syft source/package discovery | unresolved |
-| /Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/pySSTV/.source-input/uv.lock | unresolved | Syft source/package discovery | unresolved |
+| .github/workflows/python-package.yml | unresolved | Syft source/package discovery | unresolved |
+| requirements.txt | unresolved | Syft source/package discovery | unresolved |
+| uv.lock | unresolved | Syft source/package discovery | unresolved |
 
 License evidence paths/hashes, source manifests, model hashes and conditional
 CMake declarations are recorded in SBOM.cdx.json. Declared upstream pins do not

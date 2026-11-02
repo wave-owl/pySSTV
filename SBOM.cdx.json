@@ -13,7 +13,7 @@
           "content": "f95206e1eeafb8f3d8edabc5da05f8fdfb5d974f280e311620ff4aa09ce6625d"
         }
       ],
-      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/pySSTV/.source-input/requirements.txt",
+      "name": "requirements.txt",
       "type": "file"
     },
     {
@@ -28,7 +28,7 @@
           "content": "e683c9282128c378a3b9022de3a020a19c9016571f114fe929f242be443be9af"
         }
       ],
-      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/pySSTV/.source-input/uv.lock",
+      "name": "uv.lock",
       "type": "file"
     },
     {
@@ -43,7 +43,7 @@
           "content": "5faa2911f20eb96ebb3e9f40ce6c260953d70f4d207b27ce927da70fef2f254a"
         }
       ],
-      "name": "/Users/gerolfziegenhain/src/wave-owl/local/sbom-upstream-results/pySSTV/.source-input/.github/workflows/python-package.yml",
+      "name": ".github/workflows/python-package.yml",
       "type": "file"
     },
     {
